@@ -27,7 +27,7 @@ public class ParkingBoy implements ParkingWorker {
             fetchedCar=parkPlace.fecthCar(ticket);
             if(fetchedCar!=null){return fetchedCar;}
         }
-        throw new NoCarException("没有此车");
+        throw new NoCarException("没有此车!");
     }
 
     public List<ParkPlace> getParkPlaces(){
