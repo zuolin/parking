@@ -7,7 +7,6 @@ import java.util.List;
  * User: software
  * Date: 12-12-2
  * Time: 下午2:54
- * To change this template use File | Settings | File Templates.
  */
 public class FirstAvailableParkingLotChooser implements ParkingLotChooser {
     @Override
